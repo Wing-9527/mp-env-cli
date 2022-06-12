@@ -9,7 +9,6 @@ npm install mp-env-cli
 create mp-env.json in the root path  
 path should be a relative path  
 `
-/** @example */
 {
   "path": "./config/env.cofig.js"
 }
@@ -17,6 +16,5 @@ path should be a relative path
 # step2
 mp-env -e [your env name]  
 `
-/** @example */
 mp-env -e prod
 `
