@@ -36,7 +36,7 @@ async function setEnv(env) {
       console.log(
         "success".bgGreen,
         `${env} environment`.inverse
-      );
+      )
     }
   } catch(e) {
     console.log(
